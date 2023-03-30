@@ -1,6 +1,7 @@
 package org.sam;
 
 public class Sample {
+
 	private void employee() {
 		String name = "nisar";
 		System.out.println(name);
@@ -12,4 +13,10 @@ public class Sample {
 		System.out.println(name1 + "/n" + name2);
 
 	}
+
+	private void employeeId() {
+		int num = 1384;
+		System.out.println(num);
+	}
+
 }
