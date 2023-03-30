@@ -7,6 +7,15 @@ public class Sample {
 		System.out.println(name);
 	}
 
+	private void employeeAddress(String Add) {
+		System.out.println(Add);
+	}
+
+	public static void main(String[] args) {
+		Sample s = new Sample();
+		s.employeeAddress("Trichy");
+	}
+
 	private void employeeName(String name1, String name2) {
 		name1 = "nandy";
 		name2 = "priyanka";
